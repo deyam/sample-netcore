@@ -13,7 +13,7 @@
   },
   "archive": {
     "registry": "docker.io",
-    "repository": "deyam/sample-netcore"
+    "repository": "deya/sample-netcore"
   },
   "deploy": {
     "containerPort": 5000
