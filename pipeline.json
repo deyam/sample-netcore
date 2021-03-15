@@ -12,7 +12,7 @@
     "path": "ValueTests/"
   },
   "archive": {
-    "registry": "docker.com"
+    "registry": "docker.com",
     "repository": "deya/sample-netcore"
   },
   "deploy": {
