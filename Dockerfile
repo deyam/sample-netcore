@@ -1,7 +1,8 @@
 FROM microsoft/dotnet:2-sdk
 
 COPY ValueApi/bin/Release/netcoreapp2.0 /app
-COPY ./tls.crt  /usr/local/share/ca-certificates/
+COPY ./simx-registry-CA.pem  /usr/local/share/ca-certificates/ca.crt
+COPY ./simx-registry-server-Cert.pem  /usr/local/share/ca-certificates/simx-registry-server-Cert.crt
 RUN update-ca-certificates
 #RUN apk add --no-cache ca-certificates
 RUN apt update && apt install ca-certificates && rm -rf /var/cache/apt/*
