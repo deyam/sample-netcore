@@ -12,10 +12,10 @@
     "path": "ValueTests/"
   },
   "archive": {
-    "registry": "simxfw.ddns.net",
-    "repository": "simx/sample-netcore"
+    "registry": "docker.com"
+    "repository": "deya/sample-netcore"
   },
   "deploy": {
-    "containerPort": 31612
+    "containerPort": 5000
   }
 }
