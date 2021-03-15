@@ -16,6 +16,6 @@
     "repository": "simx/sample-netcore"
   },
   "deploy": {
-    "containerPort": 5000
+    "containerPort": 31612
   }
 }
