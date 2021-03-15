@@ -12,7 +12,7 @@
     "path": "ValueTests/"
   },
   "archive": {
-    "registry": "simxfw.ddns.net",
+    "registry": "simxfw.ddns.net":31612,
     "repository": "simx/sample-netcore"
   },
   "deploy": {
